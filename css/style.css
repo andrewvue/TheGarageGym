@@ -1,0 +1,319 @@
+/* Reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/* Main */
+ html, body{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   line-height: 1.8em;
+ }
+
+ a {
+   color: #333;
+   text-decoration: none;
+ }
+
+ h1, h2, h3 {
+   padding-bottom: 20px;
+ }
+
+ p {
+   margin: 10px 0;
+ }
+
+ /* utility classes */
+ .container {
+   margin: auto;
+   max-width: 70%;
+   height: 100%;
+   overflow: auto;
+   padding: 0 20px;
+ }
+
+ .text-primary{
+   color: #f85b33;
+ }
+
+ .lead {
+   font-size: 1.5rem;
+ }
+
+ .btn {
+   display: inline-block;
+   font-size: 18px;
+   color: white;
+   background:#333;
+   padding: 13px 20px;
+   border: none;
+   cursor: pointer;
+ }
+
+ .btn:hover {
+   background: #f85b33;
+   color: #333;
+ }
+
+ .btn-light{
+   background: #b3b3b3;
+   color: #fff;
+ }
+
+ .bg-dark{
+   background: #333;
+   color: #fff;
+ }
+
+ .bg-light{
+   background: #f4f4f4;
+   color: #333;
+ }
+
+ .bg-primary {
+   background: #f76c4a;
+   color: #333;
+ }
+
+.clr {
+  clear: both;
+}
+
+.l-heading {
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+.m-heading{
+  font-size: 2rem;
+}
+
+/* Padding */
+.py-1{
+  padding: 10px 0;
+}
+.py-2{
+  padding: 20px 0;
+}
+.py-3{
+  padding: 30px 0;
+}
+.py-4{
+  padding: 40px 0;
+}
+ /* Navbar */
+ #navbar {
+   background: #333;
+   color: white;
+   overflow: auto;
+ }
+
+ #navbar a {
+   color: white;
+ }
+
+ #navbar .logo{
+   float: left;
+   padding-top: 20px;
+ }
+
+ #navbar ul{
+   list-style: none;
+   float: right;
+ }
+
+ #navbar ul li{
+   float: left;
+ }
+
+ #navbar ul li a {
+   display: block;
+   padding: 20px;
+   text-align: center;
+ }
+ /* need to make sure the current home page is highlighted and selected when we are on that page */
+ #navbar ul li a:hover,
+ #navbar ul li a.current  {
+   background: #444;
+   color: #f85b33;
+ }
+
+ /* Showcase */
+#showcase {
+  background: url('../img/barbell1.jpg') no-repeat center center/cover;
+  height: 600px;
+  opacity: .8;
+}
+
+ #showcase .showcase-content {
+   color: #fff;
+   text-align: center;
+   padding-top: 170px;
+ }
+
+ #showcase .showcase-content h1{
+   font-size: 60px;
+   line-height: 1.2em;
+   opacity: 1;
+ }
+
+ #showcase .showcase-content p {
+   padding-bottom: 20px;
+   line-height: 1.5em;
+ }
+
+ /* Home page Info */
+
+ #home-info{
+   height: 400px;
+   width: 100%;
+ }
+ #home-info .info-img{
+   float: left;
+   width: 50%;
+   background: url('../img/classic-white-chevrolet-pickup-truck-near-white-2-door-845599.jpg') no-repeat;
+   background-size: auto;
+   min-height: 100%;
+   opacity: .9;
+ }
+#home-info .info-content{
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+  opacity: .7;
+}
+
+#home-info .info-content p{
+  padding-bottom: 20px;
+}
+
+/* Features */
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.box i{
+  margin-bottom: 10px;
+}
+
+
+/* About Info */
+#about-info .info-left{
+  float: left;
+  width: 50%;
+  min-height: 100%;
+  margin: 20px auto;
+}
+#about-info .info-right{
+  float: right;
+  width: 50%;
+  min-height: 100%;
+  margin: 10px auto;
+  margin-top: 20px;
+}
+
+#about-info .info-right img {
+  display: block;
+  margin: 20px auto;
+  width: 70%;
+  border-radius: 50%;
+}
+
+/* Testimonials */
+#testimonials {
+  height: 1000px;
+  padding-top: 40px;
+}
+
+#testimonials .testmonial{
+  margin-bottom: 10px;
+}
+
+#testimonials .testimonial img{
+  width: 25%;
+  border-radius: 50%;
+}
+
+/* Values and Mission */
+#about-values .value{
+  float: left;
+  width: 50%;
+  min-height: 100%;
+  text-align: center;
+  padding: 10px;
+}
+#about-values .mission{
+  float: left;
+  width: 50%;
+  min-height: 100%;
+  text-align: center;
+  padding: 10px 10px 85px 10px;
+}
+.list-values{
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+.value-text{
+  line-height: 1.5rem;
+  text-align: center;
+  padding: 10px;
+}
+
+
+/* Contact */
+#contact-form {
+  margin-top: 20px;
+  margin-bottom: 230px;
+}
+#contact-form .form-group{
+  margin-bottom: 20px;
+}
+
+#contact-form label{
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input, 
+#contact-form textarea{
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+
+#contact-form textarea{
+  height: 200px;
+}
+
+#contact-form input:focus, 
+#contact-form textarea:focus{
+  outline: none;
+  border-color: #f85b33;
+}
+
+.contact-icon{
+  padding: 20px;
+}
+
+/* Footer */
+#main-footer {
+  text-align: center;
+  background: #444;
+  color: #fff;
+  padding: 20px;
+}

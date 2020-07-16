@@ -1,0 +1,104 @@
+/* Body*/
+#navbar .logo {
+  float: none;
+  text-align: center;
+}
+
+#navbar ul, #navbar ul li{
+  float: none;
+}
+
+#navbar ul li a {
+  padding: 5px;
+  border-bottom: #444 dotted 1px;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current  {
+  background: #444;
+  color: #f85b33;
+}
+
+/* Showcase */
+#showcase {
+
+  height: 100%;
+}
+
+#showcase .showcase-content {
+  padding-top: 70px;
+  padding-bottom:20px;
+}
+
+
+/* Home info */
+#home-info .info-img{
+  display: none;
+}
+
+#home-info .info-content{
+  float: none;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+/* Boxes */
+.box{
+  float: none;
+  width: 100%;
+}
+
+/* About */
+#about-info .info-left,
+#about-info .info-right{
+  float: none;
+  width: 100%;
+}
+
+.l-heading{
+  text-align: center;
+}
+
+#about-info .info-right{
+  margin-top: 30px;
+}
+
+#testimonials {
+  float: none;
+  width: 100%;
+}
+
+#about-values .value {
+  float: none;
+  width: 100%;
+}
+
+#about-values .mission{
+  float: none;
+  width: 100%;
+}
+/* Testimonials */
+#testimonials {
+  height: 100%;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+/* Values and Mission */
+#about-values .mission{
+  float: left;
+  width: 100%;
+  min-height: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Contact */
+#contact-form {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#contact-info .box{
+  border-bottom: #444 dotted 1px;
+}
